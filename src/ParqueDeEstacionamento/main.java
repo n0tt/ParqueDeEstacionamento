@@ -18,10 +18,10 @@ public class main extends JFrame {
     public final int nSections = 10;
     public final int nFloors = 10;
     
-    public static ArrayList<Lugar> Lugares = new ArrayList<Lugar>();
+    public static ArrayList<Floor> Lugares = new ArrayList<Floor>();
 
     public static void main(String[] args) {
-                
+        System.out.println("Main");
     }
     
 }
