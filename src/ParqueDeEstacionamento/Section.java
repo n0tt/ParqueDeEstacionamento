@@ -13,7 +13,7 @@ import java.util.ArrayList;
  */
 public class Section {
     
-    private ArrayList<Lugar> Lugares = new ArrayList<Lugar>();
+    private ArrayList<Lugar> Lugares = new ArrayList<>();
     
     public Section(ArrayList<Lugar> lugares) {
         Lugares = lugares;
