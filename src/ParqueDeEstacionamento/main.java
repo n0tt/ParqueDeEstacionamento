@@ -14,14 +14,26 @@ import java.util.ArrayList;
  */
 public class main extends JFrame {
     
-    public final int nLugares = 10;
-    public final int nSections = 10;
-    public final int nFloors = 10;
+    public static final int nLugares = 10;
+    public static final int nSections = 10;
+    public static final int nFloors = 10;
     
-    public static ArrayList<Floor> Lugares = new ArrayList<Floor>();
+    public static ArrayList<Floor> Floor = new ArrayList<Floor>();
 
     public static void main(String[] args) {
-        System.out.println("Main");
+        
+        for(int f = 0; f < nFloors; f++) {
+            
+            for(int s = 0; s < nSections; s++) {
+                
+                for(int l = 0; l < nLugares; l++) {
+                    
+                }
+                
+                
+            }
+        }
+        System.out.println("Hello");
     }
     
 }
